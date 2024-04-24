@@ -1,0 +1,27 @@
+CREATE OR REPLACE VIEW vw_book_rating AS
+SELECT
+    id,
+    product_category,
+    title,
+    description,
+    authors,
+    image,
+    preview_link,
+    publisher,
+    published_date,
+    info_link,
+    categories,
+    ratings_count,
+    price,
+    user_id,
+    profile_name,
+    review_helpfulness,
+    review_score,
+    review_time,
+    review_summary,
+    review_text,
+    word_count,
+    genre,
+    update_timestamp
+FROM
+    book_rating;
