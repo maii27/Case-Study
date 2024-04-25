@@ -26,4 +26,5 @@ SELECT
     product_category,
     update_timestamp
 FROM
-    liquor_transaction;
+    liquor_transaction
+WHERE year >= '2018'
