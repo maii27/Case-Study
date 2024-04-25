@@ -27,4 +27,4 @@ SELECT
     update_timestamp
 FROM
     liquor_transaction
-WHERE year >= '2018'
+WHERE year >= '2018';
